@@ -1,11 +1,15 @@
-#galerie {
+.galerie-container {
     display: grid;
-    grid-template-columns: repeat(11, minmax(40px, auto));
-    column-gap: 20px;
-    row-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 210px));
+    grid-auto-rows: minmax(150px, 200px);
+    column-gap: 10px;
+    row-gap: 20px;
+    justify-items: center;
+    align-items: center;
 }
 
-.dosar {
-    background-image: url('placeholder.png');
-    justify-items: stretch;
+.imagine {
+    background-color: blue;
+    background: url(placeholder.png);
+    background-size: cover;
 }
