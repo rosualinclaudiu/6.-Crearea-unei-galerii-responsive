@@ -1,15 +1,29 @@
-.galerie-container {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+.galerie {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 210px));
-    grid-auto-rows: minmax(150px, 200px);
-    column-gap: 10px;
+    grid-auto-rows: minmax(210px, 210px);
+    column-gap: 20px;
     row-gap: 20px;
-    justify-items: center;
+    justify-items: start;
     align-items: center;
 }
 
 .imagine {
     background-color: blue;
-    background: url(placeholder.png);
-    background-size: cover;
+}
+
+.imagine::after {
+    background: url('placeholder.png');
+    background-size: contain;
+    size: 100px;
 }
