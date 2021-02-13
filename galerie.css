@@ -1,0 +1,11 @@
+#galerie {
+    display: grid;
+    grid-template-columns: repeat(11, minmax(40px, auto));
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.dosar {
+    background-image: url('placeholder.png');
+    justify-items: stretch;
+}
