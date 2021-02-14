@@ -54,7 +54,7 @@ body {
     background-color: blue;
     text-align: center;
     /* vertical-align: text-bottom; */
-    padding-top: 170px;
+    padding-top: 174px;
     color: floralwhite;
 
     background-image: url('placeholder.png');
@@ -79,7 +79,10 @@ body {
 } */
 
 span {
-    background-color: cornsilk;
-    width: 200px;
+    background-color: whitesmoke;
     color: black;
+    padding: 5px 63px;
+    border-bottom: blue;
+    border-color: inherit;
+
 }
