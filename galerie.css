@@ -53,11 +53,10 @@ body {
 .imagine {
     background-color: blue;
     text-align: center;
-    vertical-align: bottom;
+    /* vertical-align: text-bottom; */
+    padding-top: 170px;
     color: floralwhite;
-}
 
-.imagine::after {
     background-image: url('placeholder.png');
     content:"";
     background-size: contain;
@@ -65,5 +64,15 @@ body {
     display:block;
     width:200px;
     height:200px;
-
 }
+
+/* .imagine::after {
+    background-image: url('placeholder.png');
+    content:"";
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:block;
+    width:200px;
+    height:200px;
+    
+} */
