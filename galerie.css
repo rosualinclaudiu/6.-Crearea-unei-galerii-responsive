@@ -77,3 +77,9 @@ body {
     height:200px;
     
 } */
+
+span {
+    background-color: cornsilk;
+    width: 200px;
+    color: black;
+}
