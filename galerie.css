@@ -8,18 +8,53 @@ body {
     background-color: cornsilk;
 }
 
-.galerie {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 210px));
-    grid-auto-rows: minmax(210px, 210px);
-    column-gap: 20px;
-    row-gap: 20px;
-    justify-items: start;
-    align-items: center;
+@media screen and (max-width: 1600px) {
+    .galerie {
+        display: grid;
+        /* grid-template-columns: repeat(auto-fill, minmax(150px, 210px)); */
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+        /* grid-auto-rows: minmax(210px, 210px);
+        column-gap: 20px;
+        row-gap: 20px; */
+        justify-items: start;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .galerie {
+        display: grid;
+        /* grid-template-columns: repeat(auto-fill, minmax(150px, 210px)); */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        /* grid-auto-rows: minmax(210px, 210px);
+        column-gap: 20px;
+        row-gap: 20px; */
+        justify-items: start;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .galerie {
+        display: grid;
+        /* grid-template-columns: repeat(auto-fill, minmax(150px, 210px)); */
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        /* grid-auto-rows: minmax(210px, 210px);
+        column-gap: 20px;
+        row-gap: 20px; */
+        justify-items: start;
+        align-items: center;
+    }
 }
 
 .imagine {
     background-color: blue;
+    text-align: center;
+    vertical-align: bottom;
+    color: floralwhite;
 }
 
 .imagine::after {
@@ -30,4 +65,5 @@ body {
     display:block;
     width:200px;
     height:200px;
+
 }
