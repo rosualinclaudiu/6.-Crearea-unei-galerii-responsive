@@ -82,9 +82,10 @@ span {
     display: block;
     background-color: whitesmoke;
     color: black;
-    padding: 5px 63px;
+    padding: 3px 63px;
+    border: solid;
     border-bottom: blue;
-    border-width: 10px;
-    border-bottom-left-radius: 8%;
-    border-bottom-right-radius: 8%;
+    border-width: 1px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
 }
