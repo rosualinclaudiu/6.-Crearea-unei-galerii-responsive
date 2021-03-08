@@ -9,7 +9,7 @@ body {
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 3840px) {
     .galerie {
         display: grid;
         /* grid-template-columns: repeat(auto-fill, minmax(150px, 210px)); */
